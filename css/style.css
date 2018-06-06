@@ -1,0 +1,278 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: 'FuturaPTBold'
+  src: url(../fonts/FuturaPTBold.otf);
+}
+
+.header-container {
+  position: relative;
+  color: #fff;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.container {
+  margin: 55px 40px;
+
+}
+
+.head-logo {
+  position: absolute;
+  top: 108px;
+  left: 55px;
+}
+
+.city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-header {
+  display: block;
+  text-align: center;
+}
+
+.page-header__container {
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-nav-link {
+
+  text-decoration: none;
+  color: #111;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-nav_item  {
+  list-style-type: none; 
+}
+
+.main-nav_item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts_phone {
+  padding: 20px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn {
+  border: 2px solid #000;
+  color: #74e196;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.services {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -22px;
+  width: 100%;
+}
+
+.left-box {
+  flex-grow: 1;
+  flex-basis: 386px;
+}
+
+.right-xow {
+  flex-grow: 2;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.label,
+.txt {
+  margin: 14px;
+  width: 360px;
+  text-align: left;
+}
+
+.service-img  {
+  width: 360px;
+  height: 245px;
+}
+
+
+
+
+.description_of_advantages {
+  text-align: center;
+}
+
+
+.advantages-list {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;  
+}
+
+.description {
+  text-align: left;
+}
+
+
+
+.icon1 {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 1050px -50px;
+}
+
+.icon2 {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 620px -50px;
+}
+
+.icon3 {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 235px -50px;
+}
+
+.icon4  {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 1050px -350px;
+}
+
+.icon5 {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 620px -350px;
+}
+
+.icon6 {
+  width: 85px;
+  height: 85px;
+  background:url(../img/sprites.png); no-repeat;
+  background-position: 235px -350px;
+}
+
+.discounts {
+  background: url(../img/discount.png) no-repeat;
+  text-align: center;
+  height: 362px;
+  
+}
+
+
+.discount {
+  color: #ffffff; 
+  
+}
+
+.discount-block {
+  display: flex;
+  justify-content: center;
+}
+
+.bttn {
+  border: 2px solid #fff;
+  color: #74e196;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.command {
+  height: 592px;
+  background: url(../img/bg-command.png) no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+.recourse {
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+}
+
+.btn-instructors {
+  position: absolute;
+  bottom: 50px;
+  left: 500px;
+  background-color: #fff;
+}
+
+.community {
+  text-align: center;
+}
+
+.ice_ace_community {
+  text-align: center;
+}
+
+.comunity {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 24px;
+}
+
+.photo-comunity {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerr {
+  background: url(../img/bg-footer.png) no-repeat;
+  height: 306px;
+}
+
+span {
+  font-weight: bold;  
+}
